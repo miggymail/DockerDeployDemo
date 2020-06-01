@@ -1,10 +1,10 @@
 ﻿version:'3'
 services:
 	ms-sql-server:
-		image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+		image: mcr.microsoft.com/mssql/server:2019-latest-ubuntu
 		environment:
 			ACCEPT_EULA: "Y"
-			SA_PASSWORD: "Pa$$word2019"
+			SA_PASSWORD: "Pa$$word2020"
 			MSQL_PID: Express
 		ports:
 			- "1433:1433"
